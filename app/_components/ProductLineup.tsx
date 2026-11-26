@@ -1,14 +1,15 @@
 import { categories, products, type Product } from "../_data/shop";
 import { CategoryTag, Photo, Section } from "./ui";
 
-function ProductCard({ name, original, sale, image }: Product) {
+function ProductCard({ name, original, sale, image, examplePrice }: Product) {
   return (
     <a href="#" className="flex flex-col gap-3">
       <Photo name={image} alt={name} className="h-[164px] md:h-[280px]" />
       <div className="flex flex-col gap-1">
         <p className="line-clamp-2 text-sm leading-5 text-ink">{name}</p>
-        <p className="text-sm leading-5 text-tertiary line-through">{original}</p>
+        {original && <p className="text-sm leading-5 text-tertiary line-through">{original}</p>}
         <p className="text-xl font-bold leading-7 text-ink">{sale}</p>
+        {examplePrice && <p className="text-xs text-secondary">예시 가격</p>}
       </div>
     </a>
   );

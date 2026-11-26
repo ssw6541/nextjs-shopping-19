@@ -1,4 +1,4 @@
-export type Product = { name: string; original: string; sale: string; image: string };
+export type Product = { name: string; original: string; sale: string; image: string; examplePrice?: boolean };
 
 export const navItems = [
   "대게·킹크랩·게",
@@ -33,21 +33,19 @@ export const categories = [
 // 카테고리 타일 이미지 (categories와 같은 순서)
 export const categoryImages = ["crab-platter", "king-crab", "red-crab", "lobster-live", "blue-crab", "shrimp-raw"];
 
-const TBD = "00,000원";
-
 export const products: Product[] = [
   { name: "[바다곳간] 러시아 자숙대게 특A급 수율보장 선어 꼬물이", original: "50,000원", sale: "33,800원", image: "crab-ice" },
   { name: "[바다곳간] 활 자숙 레드 킹크랩 3KG 내외 특A급 프리미엄 수율보장 사계절 러시아 킹크랩", original: "350,000원", sale: "215,800원", image: "king-crab" },
   { name: "바다곳간 국산 포항 대게 3미 5미", original: "48,050원", sale: "37,500원", image: "crab-plate" },
   { name: "[바다곳간 pick's] 진도 프리미엄 활 전복 1kg", original: "30,900원", sale: "25,100원", image: "abalone" },
-  { name: "노바시 새우", original: TBD, sale: TBD, image: "shrimp-cooked" },
-  { name: "손질 칵테일새우", original: TBD, sale: TBD, image: "shrimp-cocktail" },
-  { name: "제주 고등어 순살필렛", original: TBD, sale: TBD, image: "mackerel" },
-  { name: "영광법성포 참굴비", original: TBD, sale: TBD, image: "croaker" },
-  { name: "흑산도 홍어", original: TBD, sale: TBD, image: "skate" },
-  { name: "냉동 해물모듬 5종", original: TBD, sale: TBD, image: "seafood" },
-  { name: "상품명", original: TBD, sale: TBD, image: "blue-crab" },
-  { name: "상품명", original: TBD, sale: TBD, image: "lobster-claws" },
+  { name: "노바시 새우", original: "", sale: "19,900원", examplePrice: true, image: "shrimp-cooked" },
+  { name: "손질 칵테일새우", original: "", sale: "16,900원", examplePrice: true, image: "shrimp-cocktail" },
+  { name: "제주 고등어 순살필렛", original: "", sale: "18,900원", examplePrice: true, image: "mackerel" },
+  { name: "영광법성포 참굴비", original: "", sale: "29,900원", examplePrice: true, image: "croaker" },
+  { name: "흑산도 홍어", original: "", sale: "32,900원", examplePrice: true, image: "skate" },
+  { name: "냉동 해물모듬 5종", original: "", sale: "21,900원", examplePrice: true, image: "seafood" },
+  { name: "제철 꽃게", original: "", sale: "29,900원", image: "blue-crab", examplePrice: true },
+  { name: "랍스터 집게", original: "", sale: "39,900원", image: "lobster-claws", examplePrice: true },
 ];
 
 export const company = {
