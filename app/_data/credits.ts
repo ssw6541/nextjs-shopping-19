@@ -1,0 +1,31 @@
+// 이미지 출처 (Wikimedia Commons). CC BY / CC BY-SA 이미지는 작가 표기가 필요합니다.
+export type Credit = { file: string; title: string; artist: string; license: string; source: string };
+
+export const credits: Credit[] = [
+  { file: "hero.jpg", title: "Boiled Echizen crab (snow crab) male and female.jpg", artist: "さかおり", license: "CC BY-SA 4.0", source: "https://commons.wikimedia.org/wiki/File:Boiled_Echizen_crab_(snow_crab)_male_and_female.jpg" },
+  { file: "crab-ice.jpg", title: "Red Snow Crabs - Teradomari Fish Market Street.jpg", artist: "ひでわく", license: "CC BY-SA 2.1 jp", source: "https://commons.wikimedia.org/wiki/File:Red_Snow_Crabs_-_Teradomari_Fish_Market_Street.jpg" },
+  { file: "crab-platter.jpg", title: "Daegae-jjim 2.jpg", artist: "donchili", license: "CC BY-SA 2.0", source: "https://commons.wikimedia.org/wiki/File:Daegae-jjim_2.jpg" },
+  { file: "crab-plate.jpg", title: "Daegae-jjim 1.jpg", artist: "donchili", license: "CC BY-SA 2.0", source: "https://commons.wikimedia.org/wiki/File:Daegae-jjim_1.jpg" },
+  { file: "king-crab.jpg", title: "Paralithodes camtschaticus on a plate posterodorsal view.jpg", artist: "Tatters ✾", license: "CC BY-SA 2.0", source: "https://commons.wikimedia.org/wiki/File:Paralithodes_camtschaticus_on_a_plate_posterodorsal_view.jpg" },
+  { file: "red-crab.jpg", title: "Kasumi Red Snow Crab (26277743484).jpg", artist: "Nishimuraya Kinosaki Onsen", license: "CC BY 2.0", source: "https://commons.wikimedia.org/wiki/File:Kasumi_Red_Snow_Crab_(26277743484).jpg" },
+  { file: "red-crab-ice.jpg", title: "Red Snow Crabs - Teradomari Fish Market Street.jpg", artist: "ひでわく", license: "CC BY-SA 2.1 jp", source: "https://commons.wikimedia.org/wiki/File:Red_Snow_Crabs_-_Teradomari_Fish_Market_Street.jpg" },
+  { file: "lobster-live.jpg", title: "Live lobster 173.jpg", artist: "Louisiana Sea Grant College Program Louisiana State Universi", license: "CC BY 2.0", source: "https://commons.wikimedia.org/wiki/File:Live_lobster_173.jpg" },
+  { file: "lobster-claws.jpg", title: "Lobster live - Flickr - Stiller Beobachter.jpg", artist: "Stiller Beobachter from Ansbach, Germany", license: "CC BY 2.0", source: "https://commons.wikimedia.org/wiki/File:Lobster_live_-_Flickr_-_Stiller_Beobachter.jpg" },
+  { file: "abalone.jpg", title: "HK 北角 North Point 長康街 Cheung Hong Street 明星海鮮酒家 Star Seafood Restaurant food 鮑魚 steamed Abalone night March 2019 SSG 03.jpg", artist: "KM francois Georges Pierre", license: "CC BY-SA 4.0", source: "https://commons.wikimedia.org/wiki/File:HK_%E5%8C%97%E8%A7%92_North_Point_%E9%95%B7%E5%BA%B7%E8%A1%97_Cheung_Hong_Street_%E6%98%8E%E6%98%9F%E6%B5%B7%E9%AE%AE%E9%85%92%E5%AE%B6_Star_Seafood_Restaurant_food_%E9%AE%91%E9%AD%9A_steamed_Abalone_night_March_2019_SSG_03.jpg" },
+  { file: "shrimp-cooked.jpg", title: "Cooked shrimp on a plate.jpg", artist: "Leon Brocard", license: "CC BY 2.0", source: "https://commons.wikimedia.org/wiki/File:Cooked_shrimp_on_a_plate.jpg" },
+  { file: "shrimp-raw.jpg", title: "Frozen cooked shrimp (20240124).jpg", artist: "Fumikas Sagisavas", license: "CC0", source: "https://commons.wikimedia.org/wiki/File:Frozen_cooked_shrimp_(20240124).jpg" },
+  { file: "shrimp-cocktail.jpg", title: "Shrimp Cocktail at Sonoma Grille - Sarah Stierch.jpg", artist: "Missvain", license: "CC BY 4.0", source: "https://commons.wikimedia.org/wiki/File:Shrimp_Cocktail_at_Sonoma_Grille_-_Sarah_Stierch.jpg" },
+  { file: "mackerel.jpg", title: "Mackerel fillet.jpg", artist: "Tiia Monto", license: "CC BY-SA 4.0", source: "https://commons.wikimedia.org/wiki/File:Mackerel_fillet.jpg" },
+  { file: "seafood.jpg", title: "A mixed seafood 1.jpg", artist: "Bim24", license: "CC BY-SA 4.0", source: "https://commons.wikimedia.org/wiki/File:A_mixed_seafood_1.jpg" },
+  { file: "blue-crab.jpg", title: "Portunus armatus 14308270.jpg", artist: "coenobita", license: "CC BY 4.0", source: "https://commons.wikimedia.org/wiki/File:Portunus_armatus_14308270.jpg" },
+  { file: "croaker.jpg", title: "Larimichthys polyactis.jpg", artist: "국립국어원", license: "CC BY-SA 2.0 kr", source: "https://commons.wikimedia.org/wiki/File:Larimichthys_polyactis.jpg" },
+  { file: "fish-market.jpg", title: "小黄鱼.jpg", artist: "思源如宁", license: "CC BY-SA 3.0", source: "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E9%BB%84%E9%B1%BC.jpg" },
+  { file: "croaker-ice.jpg", title: "Small yellow croaker.jpg", artist: "Fumikas Sagisavas", license: "CC0", source: "https://commons.wikimedia.org/wiki/File:Small_yellow_croaker.jpg" },
+  { file: "skate.jpg", title: "Hongeo muchim.jpg", artist: "New2lines", license: "CC BY-SA 4.0", source: "https://commons.wikimedia.org/wiki/File:Hongeo_muchim.jpg" },
+  { file: "market-tank.jpg", title: "Seafood stall Makishi First Public Market 03.jpg", artist: "KQuhen", license: "CC BY-SA 4.0", source: "https://commons.wikimedia.org/wiki/File:Seafood_stall_Makishi_First_Public_Market_03.jpg" },
+  { file: "market-fish.jpg", title: "Seafood stall Makishi First Public Market 01.jpg", artist: "KQuhen", license: "CC BY-SA 4.0", source: "https://commons.wikimedia.org/wiki/File:Seafood_stall_Makishi_First_Public_Market_01.jpg" },
+  { file: "market-shellfish.jpg", title: "Seafood stall Makishi First Public Market 02.jpg", artist: "KQuhen", license: "CC BY-SA 4.0", source: "https://commons.wikimedia.org/wiki/File:Seafood_stall_Makishi_First_Public_Market_02.jpg" },
+  { file: "vegetables.jpg", title: "Fresh vegetables and fruits at the market.jpg", artist: "FranHogan", license: "CC BY-SA 4.0", source: "https://commons.wikimedia.org/wiki/File:Fresh_vegetables_and_fruits_at_the_market.jpg" },
+  { file: "gift-basket.jpg", title: "Wrapped fruit basket.jpg", artist: "Matthew Hoelscher from Doral, Florida, USA.", license: "CC BY-SA 2.0", source: "https://commons.wikimedia.org/wiki/File:Wrapped_fruit_basket.jpg" },
+  { file: "crab-meal.jpg", title: "Dinner in Hoshino Resort KAI Tsugaru 20220507f.jpg", artist: "掬茶", license: "CC BY-SA 4.0", source: "https://commons.wikimedia.org/wiki/File:Dinner_in_Hoshino_Resort_KAI_Tsugaru_20220507f.jpg" },
+];
